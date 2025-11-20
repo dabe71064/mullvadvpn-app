@@ -3,11 +3,6 @@
 #![deny(missing_docs)]
 #![recursion_limit = "1024"]
 
-/// Misc FFI utilities.
-#[cfg(windows)]
-#[macro_use]
-mod ffi;
-
 /// Window API wrappers and utilities
 #[cfg(target_os = "windows")]
 pub mod window;
@@ -16,9 +11,6 @@ mod offline;
 
 /// Split tunneling
 pub mod split_tunnel;
-
-/// Abstracts over different VPN tunnel technologies
-pub mod tunnel;
 
 /// Helper function to preserve previous log files.
 pub mod logging;
