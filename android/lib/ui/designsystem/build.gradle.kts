@@ -13,6 +13,7 @@ dependencies {
     implementation(projects.lib.theme)
     implementation(projects.lib.model)
     implementation(projects.lib.ui.tag)
+    implementation(projects.lib.ui.util)
 
     implementation(libs.compose.ui)
     implementation(libs.compose.ui.tooling)

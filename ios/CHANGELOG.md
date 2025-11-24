@@ -22,6 +22,11 @@ Line wrap the file at 100 chars.                                              Th
 * **Security**: in case of vulnerabilities.
 
 ## UNRELEASED
+### Added
+- Add support for additional languages.
+
+### Added
+- Allow using port 443 for UDP-over-TCP.
 
 ### Changed
 - Bump minimum version to iOS 17.0
